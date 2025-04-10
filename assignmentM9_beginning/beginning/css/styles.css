@@ -75,10 +75,10 @@ nav li {
     margin-top: 10px;
     width: 130px;
     display: none;
- }
- .sub-menu li {
+}
+.sub-menu li {
      padding: 0;
- }
+}
 nav li:hover > .sub-menu {
     display: flex;
 }
@@ -152,8 +152,6 @@ nav li:hover > .sub-menu {
     .navToggler:checked ~ nav, .navToggler:checked ~ .navTogglerMenu .menuClose {
         display: block;
     }
-
-
 
 }
 
